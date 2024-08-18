@@ -37,10 +37,11 @@ h1, h2, p, img {
 }
 
 img {
-    max-width: 400;
+    max-width: 400px;
     display: block;
 }
 
 p {
-    transform: translate(-50%, 70%); /* Adjusted to offset the text below the image */
+    transform: translate(-50%, 900%); /* Adjusted to offset the text below the image */
 }
+
