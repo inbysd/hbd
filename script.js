@@ -40,8 +40,8 @@ const animationTimeline = () => {
     .fromTo("#imageStrongest, #strongest", { opacity: 0 }, { duration: 1, opacity: 1, ease: "power2.out" })
     .to("#imageStrongest, #strongest", { duration: 1, opacity: 0, ease: "power2.in", delay: 1 })
 
-    .fromTo("#imageExquisite, #exquisite", { opacity: 0 }, { duration: 1, opacity: 1, ease: "power2.out" })
-    .to("#imageExquisite, #exquisite", { duration: 1, opacity: 0, ease: "power2.in", delay: 1 })
+    .fromTo("#imageBeautiful, #beautiful", { opacity: 0 }, { duration: 1, opacity: 1, ease: "power2.out" })
+    .to("#imageBeautiful, #beautiful", { duration: 1, opacity: 0, ease: "power2.in", delay: 1 })
 
     .fromTo("#future", { opacity: 0 }, { duration: 1.5, opacity: 1, ease: "elastic.out(1, 0.5)" })
     .to("#future", { duration: 1, opacity: 0, ease: "power2.in", delay: 1 })
