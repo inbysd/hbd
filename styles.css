@@ -37,7 +37,7 @@ h1, h2, p, img {
 }
 
 img {
-    max-width: 100px;
+    max-width: 400;
     display: block;
 }
 
